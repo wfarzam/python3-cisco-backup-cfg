@@ -62,7 +62,7 @@ email_password = 'email password'
 ```
 
 ## Device List
-**The following devices IP are used a targeted test devices.**
+**The following IPs are used a targeted test devices, which the scripted target to initiate the backup to the following devices and will be using their real hostname and print it out withint he filename generated after scripted is executed.**
 ```py
 devices = [
     {"ip": "192.168.10.200", "vendor": "cisco_xe"},
