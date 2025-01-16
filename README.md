@@ -61,5 +61,7 @@ devices = [
 ]
 ```
 ## Device Credentials
+```py
 device_username = "your ssh user id"
 device_password = "your ssh password"
+```
