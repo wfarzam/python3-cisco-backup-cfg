@@ -2,6 +2,8 @@
 Python3 script to backup Cisco Routers and Switches both IOS-XE, Nexus NXOS and IOS devices configurations to a remote FTP Server and also get an email alert for Successfull or failed backup of the each device.
 This script is made for the Network Environments where Organizations dose not have any centralized management tool like Cisco DNA or any other tool to backup their Cisco devices configuration.
 
+Please change the Device IP addresses, usersname, passwords, ftp server and email settings according to your environment settings and how things are setup.
+
 Intial, steps are as following
 ## 1. First, lets make the python3 envirnment ready.
 ```sh
