@@ -62,7 +62,7 @@ email_password = 'email password'
 ```
 
 ## Device List
-in this example we use the following devices IP as our test devices and make sure SSH is enabled and can be access with the username and password.
+**The following devices IP are used a targeted test devices.**
 ```py
 devices = [
     {"ip": "192.168.10.200", "vendor": "cisco_xe"},
