@@ -2,8 +2,8 @@
 This script automates the backup process for Cisco devices running NX-OS, IOS-XE, and standard IOS. It uses **SSH** as the primary protocol for secure communication with network devices. Key features include:
 Multi-Platform Support: Compatible with Cisco NX-OS, IOS-XE, and standard IOS.
 * **Backup Status Indicators:**
-* 🟢 Green for successful backups.
-* 🔴 Red for failed backups.
+* 🟢 **Green** for successful backups.
+* 🔴 **Red** for failed backups.
 * **Email Notifications:** Alerts you via email with the results of each backup operation, providing a clear summary of success and failures.
 Whether managing a small lab or an enterprise network, this script simplifies device configuration backups while keeping you informed in real-time.
 
