@@ -50,3 +50,16 @@ email_smtp_port = 587
 email_username = 'username which can be used to be able to send email'
 email_password = 'email password'
 ```
+
+## Device List
+in this example we use the following devices IP as our test devices and make sure SSH is enabled and can be access with the username and password.
+```py
+devices = [
+    {"ip": "192.168.10.200", "vendor": "cisco_xe"},
+    {"ip": "192.168.10.201", "vendor": "cisco_nxos"},
+
+]
+```
+## Device Credentials
+device_username = "your ssh user id"
+device_password = "your ssh password"
