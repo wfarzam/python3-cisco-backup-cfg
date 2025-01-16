@@ -14,11 +14,12 @@ from email.utils import formataddr
 
 init(autoreset=True)
 
+# Change the FTP Servers IP Address or hostname accordingly accordingly.
 ftp_servers = ["192.168.11.123", "192.168.22.123"]
 ftp_username = "ftpusername"
 ftp_password = "ftpuserid password"
 
-
+# Change the following email alert settings accordingly.
 email_sender = 'DevicesBackup@WhatEverYourDomainNameIs or Your desired email'
 email_receivers = ['NetworkTeam@@WhatEverYourDomainNameIs or Your desired email distritbuion' ]
 email_subject = 'Device Backup Status'
@@ -27,12 +28,14 @@ email_smtp_port = 587
 email_username = 'username which can be used to be able to send email'
 email_password = 'email password'   
 
+# Change the following device IP's accordingly.
 devices = [
     {"ip": "192.168.10.200", "vendor": "cisco_xe"},
     {"ip": "192.168.10.201", "vendor": "cisco_nxos"},
 
 ]
 
+# Change the following devices ssh username and password accordingly.
 device_username = "your ssh user id"
 device_password = "your ssh password"
 
