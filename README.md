@@ -40,7 +40,7 @@ ftp_username = "ftpusername"
 ftp_password = "ftpuserid password"
 ```
 
-## Email Configuration
+## Email Alert Configuration details to prepare the script to send email.
 ```py
 email_sender = 'DevicesBackup@WhatEverYourDomainNameIs or Your desired email'
 email_receivers = ['NetworkTeam@@WhatEverYourDomainNameIs or Your desired email distritbuion' ]
